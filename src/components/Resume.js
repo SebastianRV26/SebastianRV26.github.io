@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SkillCards from "./SkillCards";
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -26,9 +27,10 @@ export default class Resume extends Component {
                         </em>
                       </p>
                       <p>
-                        {item.Achievements.map(
-                          (achievement, idx) => `${idx + 1}. ${achievement}\n`
-                        )}
+                        {item.Achievements.map((achievement, idx) => (
+                          <p style={{ marginBottom: 0 }}>{`${idx +
+                            1}. ${achievement}`}</p>
+                        ))}
                       </p>
                     </div>
                   </div>
@@ -76,17 +78,7 @@ export default class Resume extends Component {
           <div className="nine columns main-col">
             <p>{resumeData.skillsDescription}</p>
 
-            <div>
-              {resumeData.skills &&
-                resumeData.skills.map((item, idx) => {
-                  return (
-                    <li key={`skill-${idx}`}>
-                      <em>{item.skillname}</em>
-                      {/* <i className={item.className} /> */}
-                    </li>
-                  );
-                })}
-            </div>
+            <SkillCards skills={resumeData.skills} />
 
             {/* <div className="bars">
               <ul className="skills">
