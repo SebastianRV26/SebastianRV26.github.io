@@ -146,6 +146,22 @@ let resumeData = {
       primaryColor: "#413000",
       secondaryColor: "#8c929d",
     },
+    {
+      skillname: "Android",
+      className: "fa fa-android",
+      bgPrimaryColor: "#a4c639",
+      bgSecondaryColor: "#3ddc84",
+      primaryColor: "#ebebeb",
+      secondaryColor: "#ffffff",
+    },
+    {
+      skillname: "Kotlin",
+      className: "fa fa-kotlin",
+      bgPrimaryColor: "#3e51b5",
+      bgSecondaryColor: "#6092d7",
+      primaryColor: "#e27451",
+      secondaryColor: "#ee7e2c",
+    },
   ],
   portfolio: [
     {
