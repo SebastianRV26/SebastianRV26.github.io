@@ -1,26 +1,26 @@
 [
   {
-    "name": "GotoSend",
-    "description": "E-commerce for selling remittances, mobile recharges and gift cards.",
-    "urlImg": "/projects/gotosend.webp",
-    "link": "https://gotosend.com"
+    "name": "Girasoles de Costa Rica",
+    "description": "Landing page of Girasoles de Costa Rica",
+    "urlImg": "/projects/sunflowers.png",
+    "link": "https://girasoles-de-costa-rica.netlify.app"
   },
   {
-    "name": "D-Kanto",
-    "description": "E-commerce website for selling technological products.",
-    "urlImg": "/projects/d-kanto.webp",
-    "link": "https://d-kanto.onrender.com"
+    "name": "QOLOLO",
+    "description": "A website for lawyers developed at Smart Consulting Group.",
+    "urlImg": "/projects/qololo.png",
+    "link": "https://www.qololo.com"
   },
   {
-    "name": "D-Kanto Admins",
-    "description": "Admin Dashboard for an E-commerce website",
-    "urlImg": "/projects/d-kanto-admin.webp",
-    "link": "https://d-kanto-admin.onrender.com"
+    "name": "Cerezo",
+    "description": "Website that automates the handling of orders within the company.",
+    "urlImg": "/projects/cerezo.png",
+    "link": "https://github.com/SebastianRV26/Cerezo.md"
   },
   {
-    "name": "Amazon Redesign Thinking",
-    "description": "Amazon Clon",
-    "urlImg": "/projects/amazon-redesign-thinking.webp",
-    "link": "https://amazon-front-gamma.vercel.app"
+    "name": "Froice (Free Voice)",
+    "description": "Social network that allows comments about companies or tourist places.",
+    "urlImg": "/projects/froice.png",
+    "link": "https://github.com/SebastianRV26/froice"
   }
 ]
