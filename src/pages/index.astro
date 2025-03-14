@@ -15,7 +15,7 @@ import { consts } from "@config/consts";
   <section id="home" class="flex flex-col">
     <article class="text-gray-950 dark:text-white text-pretty mx-auto">
       <h1 class="text-4xl md:text-6xl font-bold max-w-screen-sm">
-        Hi 👋, I'm <span>Sebastian Rojas Vargas</span>
+        Hi 👋, I'm <span class="">Sebastian Rojas Vargas</span>
       </h1>
       <div class="flex flex-col gap-6 mt-8">
         <h2 class="font-bold text-xl sm:text-2xl">
@@ -40,11 +40,20 @@ import { consts } from "@config/consts";
               Frontend Development
             </h2>
             <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
-              Expert in creating dynamic and responsive user interfaces using
-              <span class="text-blue-700 dark:text-blue-500"
-                >React and Next</span
-              >. I bring your designs to life with clean, efficient, and
-              maintainable code.
+              <ul>
+                <li>
+                  I can create landing pages with
+                  <span class="text-blue-700 dark:text-blue-500"
+                    >Astro and TailwindCSS</span
+                  >.
+                </li>
+
+                <li>
+                  And develop Software As A Service (SAAS) with <span
+                    class="text-blue-700 dark:text-blue-500">React / Next</span
+                  >.
+                </li>
+              </ul>
             </p>
           </Card>
           <Card className="card">
@@ -65,11 +74,14 @@ import { consts } from "@config/consts";
               Backend Development
             </h2>
             <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
-              Skilled in building robust and scalable server-side applications
-              with <span class="text-yellow-700 dark:text-yellow-500"
-                >Node and Express</span
-              >. I ensure your backend is secure, efficient, and seamlessly
-              integrated with your frontend.
+              <ul>
+                <li>
+                  I've used Python and Java, but now I'm using <span
+                    class="text-yellow-700 dark:text-yellow-500"
+                    >Node.js and Express</span
+                  > with the MVP architecture.
+                </li>
+              </ul>
             </p>
           </Card>
         </div>
@@ -91,8 +103,8 @@ import { consts } from "@config/consts";
             Short Bio 🧬
           </h3>
           <p>
-            I'm a Software Engineer with over 3 years of work experience in Full
-            Stack Development specialized in React.js and Node.js.
+            I am a software engineer with over 3 years of work experience in
+            Full Stack development using React, Node, JavaScript, HTML and CSS.
           </p>
           <p>
             My focus is to solve problems efficiently by developing quality
@@ -109,7 +121,7 @@ import { consts } from "@config/consts";
             href={consts.linkedInUrl}
             role="button"
             aria-label="Check my Linkedin Profile"
-            download
+            target="_blank"
             class="px-4 py-2 rounded-md bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-800 dark:bg-blue-700 focus:ring-4 focus:outline-hidden focus:ring-blue-200 dark:focus:ring-blue-950 text-white w-fit font-semibold"
             >Check my Linkedin Profile</a
           >
