@@ -1,11 +1,5 @@
 [
   {
-    "name": "Girasoles de Costa Rica",
-    "description": "Landing page of Girasoles de Costa Rica",
-    "urlImg": "/projects/sunflowers.png",
-    "link": "https://girasoles-de-costa-rica.netlify.app"
-  },
-  {
     "name": "QOLOLO",
     "description": "A website for lawyers developed at Smart Consulting Group.",
     "urlImg": "/projects/qololo.png",

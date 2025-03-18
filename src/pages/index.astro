@@ -1,6 +1,6 @@
 ---
 import Card from "@/components/Card.astro";
-import Layout from "@/layouts/Layout.astro";
+import MainLayout from "@/layouts/MainLayout.astro";
 import TimelineItem from "@/components/TimelineItem.astro";
 import Project from "@/components/Project.astro";
 // import CardService from "@/components/CardService.astro";
@@ -11,7 +11,7 @@ import { consts } from "@config/consts";
 // import HireServiceModal from "@/components/HireServiceModal.astro";
 ---
 
-<Layout>
+<MainLayout>
   <section id="home" class="flex flex-col">
     <article class="text-gray-950 dark:text-white text-pretty mx-auto">
       <h1 class="text-4xl md:text-6xl font-bold max-w-screen-sm">
@@ -44,12 +44,12 @@ import { consts } from "@config/consts";
                 <li>
                   I can create landing pages with
                   <span class="text-blue-700 dark:text-blue-500"
-                    >Astro and TailwindCSS</span
-                  >.
+                    >Astro</span
+                  > and TailwindCSS.
                 </li>
 
                 <li>
-                  And develop Software As A Service (SAAS) with <span
+                  And develop Software As A Service (SaaS) with <span
                     class="text-blue-700 dark:text-blue-500">React / Next</span
                   >.
                 </li>
@@ -192,7 +192,7 @@ import { consts } from "@config/consts";
     </article>
   </section> -->
   <!-- <HireServiceModal /> -->
-</Layout>
+</MainLayout>
 
 <script>
   import { animate, inView, stagger } from "motion";
