@@ -1,0 +1,20 @@
+[
+  {
+    "name": "QOLOLO",
+    "description": "A website for lawyers developed at Smart Consulting Group.",
+    "urlImg": "/projects/qololo.png",
+    "link": "https://www.qololo.com"
+  },
+  {
+    "name": "Cerezo",
+    "description": "Website that automates the handling of orders within the company.",
+    "urlImg": "/projects/cerezo.png",
+    "link": "https://github.com/SebastianRV26/Cerezo.md"
+  },
+  {
+    "name": "Froice (Free Voice)",
+    "description": "Social network that allows comments about companies or tourist places.",
+    "urlImg": "/projects/froice.png",
+    "link": "https://github.com/SebastianRV26/froice"
+  }
+]
