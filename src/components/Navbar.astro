@@ -137,6 +137,7 @@ if (pathname == "/") {
   const themeMoonIcon = document.getElementById("theme-moon-icon");
   const themeSunIcon = document.getElementById("theme-sun-icon");
 
+  /*
   const isDarkColorThemeSet =
     "color-theme" in localStorage &&
     localStorage.getItem("color-theme") === "dark";
@@ -149,6 +150,8 @@ if (pathname == "/") {
   } else {
     setLightTheme();
   }
+  */
+  setDarkTheme();
 
   if (themeToggle instanceof HTMLButtonElement) {
     themeToggle.addEventListener("click", () => {
