@@ -1,5 +1,11 @@
 [
   {
+    "name": "English Verbs Game",
+    "description": "A website with games for learning verbs in English.",
+    "urlImg": "/projects/verbs.png",
+    "link": "https://english-verbs-game.netlify.app/"
+  },
+  {
     "name": "QOLOLO",
     "description": "A website for lawyers developed at Smart Consulting Group.",
     "urlImg": "/projects/qololo.png",
