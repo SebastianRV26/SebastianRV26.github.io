@@ -1,9 +1,21 @@
 [
   {
-    "name": "English Verbs Game",
+    "name": "PhrasalUp",
+    "description": "A website with games for learning phrasal verbs in English.",
+    "urlImg": "/projects/phrasal-verbs.png",
+    "link": "https://phrasalup.netlify.app/"
+  },
+  {
+    "name": "Verb Quest",
     "description": "A website with games for learning verbs in English.",
-    "urlImg": "/projects/verbs.png",
+    "urlImg": "/projects/verb-quest.png",
     "link": "https://english-verbs-game.netlify.app/"
+  },
+  {
+    "name": "Pill Tracker",
+    "description": "A website for tracking pill intake.",
+    "urlImg": "/projects/pill-tracker.png",
+    "link": "https://pill-tracker-silk.vercel.app/"
   },
   {
     "name": "QOLOLO",
